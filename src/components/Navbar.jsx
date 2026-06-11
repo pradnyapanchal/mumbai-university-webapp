@@ -23,7 +23,7 @@ export default function Navbar() {
             className="w-12 h-12 rounded-full flex items-center justify-center text-xs font-medium text- shrink-0 border-[1.5px]"
             style={{ background: "var(--teal)", borderColor: "var(--teal2)" }}
           >
-            <img   src="/mu-website/logo.png" 
+           <img src={import.meta.env.BASE_URL + "logo.png"} 
   className="w-10 h-8"
  alt="" srcSet="" />
           </div>
