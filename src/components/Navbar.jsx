@@ -23,7 +23,7 @@ export default function Navbar() {
             className="w-12 h-12 rounded-full flex items-center justify-center text-xs font-medium text- shrink-0 border-[1.5px]"
             style={{ background: "var(--teal)", borderColor: "var(--teal2)" }}
           >
-            <img   src="/logo.png"
+            <img   src="/mumbai-university-webapp/logo.png" 
   className="w-10 h-8"
  alt="" srcSet="" />
           </div>

@@ -5,7 +5,7 @@ import { events } from "../data/content";
 export default function EventsSection() {
   const ref = useReveal();
   return (
-    <section className="section" style={{ paddingTop: 0 }}>
+    <section className="section" >
       <div className="site-container">
         <SectionHead eyebrow="Schedule" title="Upcoming Events" moreLabel="Full calendar" />
         <div ref={ref} className="events-grid reveal">

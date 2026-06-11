@@ -14,7 +14,7 @@ export default function Footer() {
 
             <div>
 
-            <div className="footer-brand-emblem" aria-label="MU Logo">  <img   src="/logo.png"
+            <div className="footer-brand-emblem" aria-label="MU Logo">  <img   src="/mumbai-university-webapp/logo.png"
   className="w-10 h-8"
  alt="" srcSet="" /></div>
             </ div>

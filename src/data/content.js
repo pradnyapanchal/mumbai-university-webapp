@@ -41,8 +41,8 @@ export const slides = [
 ];
 
 export const stats = [
-  { num: "700+",   label: "Affiliated Colleges" },
-  { num: "5 L+",   label: "Students Enrolled" },
+  { num: "915+",   label: "Affiliated Colleges" },
+  { num: "7.5 L+",   label: "Students Enrolled" },
   { num: "NAAC A++", label: "Accreditation" },
   { num: "169",    label: "Years of Excellence" },
 ];

@@ -5,7 +5,7 @@ import { notifications } from "../data/content";
 export default function NotificationsSection() {
   const ref = useReveal();
   return (
-    <section className="section" style={{ paddingTop: 0 }}>
+    <section className="section" >
       <div className="site-container">
         <div ref={ref} className="reveal">
           <SectionHead eyebrow="Announcements" title="Notifications" moreLabel="View all" />

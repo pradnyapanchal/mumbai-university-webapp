@@ -30,7 +30,8 @@
   --navy-2:      #152240;
   --navy-3:      #1e3460;
   --teal:        #0d6e63;
-  --teal-2:      #0f8a7d;
+  /* --teal-2:      #35cebe; */
+--teal-2: rgba(11, 45, 97, 0.6);
   --teal-light:  #e6f5f3;
   --teal-faint:  #f2faf9;
   --slate:       #4a6080;
@@ -451,15 +452,18 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .slide-tag-text {
   display: inline-block;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--teal-2);
+  /* color: var(--teal-2); */
+  color:white;
   padding: 4px 10px;
   border: 1px solid rgba(15,138,125,0.4);
   border-radius: 2px;
-  background: rgba(13,110,99,0.12);
+  /* background: rgba(13,110,99,0.12); */
+  background: var(--teal-2);
+
   margin-bottom: 1rem;
 }
 
@@ -521,10 +525,20 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .hero-arrow.left  { left: 16px; }
 .hero-arrow.right { right: 16px; }
 
-@media (min-width: 768px) {
-  .hero-arrow { width: 44px; height: 44px; }
-  .hero-arrow.left  { left: 24px; }
-  .hero-arrow.right { right: 24px; }
+@media (max-width: 767px) {
+  .hero-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .hero-arrow.left {
+    left: 10px;
+  }
+
+  .hero-arrow.right {
+    right: 10px;
+  }
 }
 
 .hero-dots {
@@ -573,6 +587,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   color: #084d44;
 }
 
+
+
+
 /* ─────────────────────────────────────────
    SECTION WRAPPER
 ───────────────────────────────────────── */
@@ -592,7 +609,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 
 .section-eyebrow {
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -602,7 +619,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .section-title {
   font-family: "EB Garamond", Georgia, serif;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  /* font-size: clamp(2rem, 1vw, 1rem); */
+  font-size: 20px;
+
   font-weight: 400;
   color: var(--navy);
   line-height: 1.2;
